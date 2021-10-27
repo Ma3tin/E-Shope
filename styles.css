@@ -1,0 +1,44 @@
+.top {
+  width: 80%;
+  margin-left: 10%;
+  background-color: #fff;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.top ul {
+  flex-flow: wrap;
+  display: flex;
+  flex-direction: row;
+}
+.top ul li {
+  background-color: #d3121a;
+  margin: 10px;
+  padding: 10px 10px;
+}
+.top .name {
+  display: flex;
+}
+.top .name .ending {
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+}
+.top .name .ending input {
+  margin-left: 100px;
+}
+.top .name .first {
+  color: #d3121a;
+}
+.top .name .second {
+  color: #20648b;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial Black", serif;
+  background-color: #adadad;
+}
+
+/*# sourceMappingURL=styles.css.map */

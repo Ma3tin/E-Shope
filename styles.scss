@@ -1,0 +1,58 @@
+$primary: #fff;
+$secondary: #d3121a;
+$third: #20648b;
+$background: #adadad;
+
+.top {
+  width: 80%;
+  margin-left: 10%;
+  background-color: $primary;
+  height: 100vh;
+  color: white;
+  display: flex;
+
+  flex-direction: column;
+  ul {
+    flex-flow: wrap;
+    display: flex;
+    flex-direction: row;
+    li {
+      background-color: $secondary;
+      margin: 10px;
+      padding: 10px 10px;
+    }
+  }
+  .name {
+    display: flex;
+    .ending {
+      display: flex;
+      align-items: center;
+      flex-flow: wrap;
+      input {
+        margin-left: 100px;
+      }
+      .user {
+      }
+    }
+    .first {
+      color: $secondary;
+    }
+    .second {
+      color: $third;
+    }
+  }
+}
+
+
+.game {
+
+}
+
+body {
+  margin: 0;
+  font-family: "Arial Black", serif;
+  background-color: $background;
+}
+
+
+
